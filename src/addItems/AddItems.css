@@ -1,0 +1,42 @@
+#err {
+    background: rgb(219 68 68 / 74%);
+    color: white;
+    display: none;
+    padding: 10px;
+    width: 30%;
+    border: 1px solid #eb1717;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+}
+/* .active {
+    background: rgb(219 68 68 / 74%);
+    color: white;
+    padding: 10px;
+    width: 30%;
+    border: 1px solid #eb1717;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+} */
+#err span.close
+ {
+    margin-left: 218px;
+    cursor: pointer;
+}
+
+#succ {
+    background: rgb(103 163 108);
+    color: white;
+    display: none;
+    padding: 10px;
+    width: 30%;
+    border: 1px solid #165805;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+}
+#succ span.close {
+    margin-left: 200px;
+    cursor: pointer;
+}

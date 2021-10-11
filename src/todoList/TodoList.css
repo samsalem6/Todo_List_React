@@ -1,0 +1,55 @@
+.ListItems {
+  background: #fff;
+  color: #212121;
+}
+.ListItems p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+  color: #444444;
+}
+
+.ListItems span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+.ListItems span.title {
+  background: #28b5f4;
+  color: #fff;
+}
+.ListItems span.name,
+form input[type="text"] {
+  width: 60%;
+}
+.ListItems span.age,
+form input[type="number"] {
+  width: 30%;
+}
+.ListItems span.action,
+form input[type="submit"] {
+  width: 10%;
+}
+.ListItems span.icon {
+  color: #b71c1c;
+  cursor: pointer;
+}
+form input {
+  padding: 10px;
+  background: #e0e0e0;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+
+form input[type="submit"] {
+  background: #28b5f4;
+  border: 0.3px solid #28b5f4;
+  color: #fff;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background: #98d0e9;
+  border: 1px solid #98d0e9;
+}
